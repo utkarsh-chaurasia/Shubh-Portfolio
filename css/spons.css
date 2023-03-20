@@ -1,0 +1,49 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        .image {
+            /* height: 20vh; */
+            display: flex;
+            gap: 20px 100px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .image img {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            justify-content: center;
+        }
+        
+        .pujji {
+            margin-top: 70px;
+            font-size: 10rem;
+            letter-spacing: 3px;
+        }
+        
+        .pujjii {
+            margin-top: 40px;
+            font-size: 18px;
+            line-height: 4rem;
+        }
+        
+        @media screen and (max-width: 400px) {
+            .image img {
+                margin: 0;
+                width: 50px;
+                height: 50px;
+            }
+            .image {
+                padding: 0;
+                gap: 20px 40px;
+            }
+        }
+        /*-------------------------- for sponse page-------------------------------- */
